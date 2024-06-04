@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Zoifyllon</string>
+    <string name="signup">Register</string>
+    <string name="login">Login</string>
+    <string name="message_welcome_page">Temukan dan Identifikasi penyakit pada tanaman dengan mudah akurat melalui pemindaian gambar</string>
+    <string name="title_welcome_page">Selamat datang di <br><b>Zoifyllon</b></br></string>
+    <string name="title_signup_page">Masukkan data anda dibawah ini!</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="message_login_page">Masukkan data anda terlebih dahulu!</string>
+    <string name="title_login_page">MASUK</string>
+    <string name="name">Username</string>
+    <string name="logout">Logout</string>
+    <string name="banner">Banner</string>
+    <string name="camera_x">CameraX</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Galery</string>
+    <string name="upload">Upload</string>
+    <string name="empty_image_warning">Insert the image file first!</string>
+    <string name="deskripsi">Description</string>
+    <string name="masukkan_nama_anda">Enter Your Username!</string>
+    <string name="masukkan_email_anda">Enter Your Email!</string>
+    <string name="error_email">The email you entered is invalid!</string>
+    <string name="error_password">Password must not be less than 8 characters</string>
+    <string name="empty_description_warning">Insert the description first!</string>
+    <string name="img_splashscreen">img_splashscreen</string>
+</resources>
