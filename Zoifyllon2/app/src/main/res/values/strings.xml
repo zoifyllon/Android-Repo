@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Zoifyllon</string>
+    <string name="message_welcome_page">Temukan dan Identifikasi penyakit pada tanaman dengan mudah akurat \n melalui pemindaian gambar</string>
+    <string name="title_welcome_page">Selamat datang di \n Zoifyllon!</string>
+    <string name="signup">Signup</string>
+    <string name="login">Login</string>
+
+</resources>

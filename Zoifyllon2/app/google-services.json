@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "227076854757",
+    "project_id": "modular-terra-424600-k1",
+    "storage_bucket": "modular-terra-424600-k1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:227076854757:android:aa237fe104487a3d37150c",
+        "android_client_info": {
+          "package_name": "com.bangkit.zoifyllon"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-jT7tWCrPLm3EW8siD4V-rAErAR91qRM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:227076854757:android:b5c27181c751f81d37150c",
+        "android_client_info": {
+          "package_name": "com.capstone.zoifyllon"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-jT7tWCrPLm3EW8siD4V-rAErAR91qRM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
