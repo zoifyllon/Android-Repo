@@ -8,7 +8,7 @@
     android:orientation="vertical"
     android:gravity="center"
     android:background="@drawable/leaves"
-    tools:context=".">
+    tools:context=".ui.auth.RegisterActivity">
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -16,6 +16,7 @@
         android:layout_margin="30dp"
         app:cardCornerRadius="30dp"
         app:cardElevation="20dp">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -23,6 +24,7 @@
             android:layout_gravity="center_horizontal"
             android:padding="24dp"
             android:background="@drawable/green_border">
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -31,7 +33,8 @@
                 android:textAlignment="center"
                 android:textStyle="bold"
                 android:textColor="@color/seed"/>
-            <EditText
+
+            <com.bangkit.zoifyllon.ui.editor.EmailEditText
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:id="@+id/signup_email"
@@ -42,6 +45,7 @@
                 android:drawableLeft="@drawable/ic_baseline_email_24"
                 android:drawablePadding="8dp"
                 android:textColor="@color/black"/>
+
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
@@ -53,7 +57,8 @@
                 android:drawableLeft="@drawable/baseline_person_24"
                 android:drawablePadding="8dp"
                 android:textColor="@color/black"/>
-            <EditText
+
+            <com.bangkit.zoifyllon.ui.editor.PasswordEditText
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:id="@+id/signup_password"
@@ -65,15 +70,18 @@
                 android:drawableLeft="@drawable/baseline_lock_24"
                 android:drawablePadding="8dp"
                 android:textColor="@color/black"/>
+
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:text="Sign Up"
                 android:id="@+id/signup_button"
+                android:textStyle="bold"
                 android:textSize="18sp"
                 android:layout_marginTop="30dp"
                 android:backgroundTint="@color/seed"
                 app:cornerRadius = "20dp"/>
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -86,4 +94,18 @@
                 android:textSize="18sp"/>
         </LinearLayout>
     </androidx.cardview.widget.CardView>
+
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible" />
+
 </LinearLayout>

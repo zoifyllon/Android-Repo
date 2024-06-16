@@ -8,7 +8,7 @@
     android:orientation="vertical"
     android:gravity="center"
     android:background="@drawable/leaves"
-    tools:context=".">
+    tools:context=".ui.auth.LoginActivity">
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -34,19 +34,19 @@
                 android:textStyle="bold"
                 android:textColor="@color/seed"/>
 
-            <EditText
+            <com.bangkit.zoifyllon.ui.editor.EmailEditText
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:id="@+id/login_username"
+                android:id="@+id/emailEditText"
                 android:background="@drawable/green_border"
                 android:layout_marginTop="40dp"
                 android:padding="8dp"
-                android:hint="Username"
+                android:hint="Email"
                 android:drawableLeft="@drawable/baseline_person_24"
                 android:drawablePadding="8dp"
                 android:textColor="@color/black"/>
 
-            <EditText
+            <com.bangkit.zoifyllon.ui.editor.PasswordEditText
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:id="@+id/login_password"
@@ -63,6 +63,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:text="Login"
+                android:textStyle="bold"
                 android:id="@+id/login_button"
                 android:textSize="18sp"
                 android:layout_marginTop="30dp"
@@ -83,5 +84,19 @@
         </LinearLayout>
 
     </androidx.cardview.widget.CardView>
+
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible" />
+
 
 </LinearLayout>
