@@ -1,0 +1,7 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Zoifyllon" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimaryDarkMode</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkMode</item>
+    </style>
+</resources>
