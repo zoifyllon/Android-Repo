@@ -31,7 +31,7 @@ To install and run the Zoifyllon application on your local machine, follow these
 1. **Launch the App:**
    Open the Zoifyllon application on your Android device.
 
-2. **Scan Your Skin:**
+2. **Scan Your Plant:**
    Use the built-in camera functionality to take a picture of the affected leaf area.
 
 3. **Get Diagnosis:**
