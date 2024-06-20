@@ -4,16 +4,17 @@
 ## Introduction
 Zoifyllon is mobile app platform powered by image processing and AI technologies to swiftly and accurately diagnose diseases plant leaves.
 
+
 ## Features
 - **Leaves Disease Detection:** Leaf detection using machine learning features for identification of various leaf diseases using images.
 - **User-Friendly Interface:** UI/UX is characterized by simplicity and responsiveness, making the interaction effective for everyone.
-- **Detailed Report:** 
+
 
 ## Installation
 To install and run the Zoifyllon application on your local machine, follow these steps:
 1. **Clone the Repository:**
     ```bash
-    [https://github.com/zoifyllon/Android-Repo.git]
+    git clone https://github.com/zoifyllon/Android-Repo.git
     ```
 
 2. **Open in Android Studio:**
@@ -24,3 +25,14 @@ To install and run the Zoifyllon application on your local machine, follow these
 
 6. **Run the App:**
     Connect an Android device or use an emulator to run the application.
+
+
+## Usage
+1. **Launch the App:**
+   Open the Zoifllyon application on your Android device.
+
+2. **Scan Your Skin:**
+   Use the built-in camera functionality to take a picture of the affected leaf area.
+
+3. **Get Diagnosis:**
+   The app will analyze the image and provide a detailed report of the detected plant condition.
